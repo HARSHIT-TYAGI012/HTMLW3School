@@ -1,0 +1,112 @@
+li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: -3px;
+    padding: 25px;
+}
+.triple-one a{
+    padding: 25px;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+    
+}
+.Menu{
+   padding-left: 89px;
+}
+img{
+    height: 43px;
+    top: 0px;
+    left: 15px;
+    position: absolute;
+    margin: 12px;
+    
+}
+.navigation{
+    background-color: rgb(255 242 84);
+    block-size: 70px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.sidebar a:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+.Menu li a:hover{
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+
+}
+.navigation img:hover{
+    color: #04f39c;
+}
+.triple{
+    position: absolute;
+    top: 0px;
+    right: 5%;
+}
+/* .sidebar a{
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    padding: 21px;
+    opacity: 0;
+} */
+.sidebar a{
+    opacity: 0;
+    display: none;
+}
+@media (max-width:1003px) {
+    .vedio{
+        display: none;
+    }
+    @media (max-width:896px) {
+        .triple-one{
+            display: none;
+        }
+        @media (max-width:760px) {
+            .menu-one{
+                display: none;
+            }
+            @media (max-width:642px) {
+                .triple-two{
+                    display: none;
+                }
+                @media (max-width:600px) {
+                    .last,.laster{
+                        display: none;
+                        
+                    }
+                    .sidebar a{
+                            display: inline;
+                            position: absolute;
+                            top: 0px;
+                            left: 99px;
+                            text-decoration: none;
+                            font-size: x-large;
+                            color: black;
+                            font-weight: bold;
+                            padding: 21px;
+                            opacity: 1;
+                
+                        }
+                    }
+        }
+    }
+}
+}
